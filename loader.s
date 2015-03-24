@@ -12,5 +12,5 @@ align 4
 
 loader:
     mov eax, 0xCAFEBABE
-.loop
+.loop:
     jmp .loop
